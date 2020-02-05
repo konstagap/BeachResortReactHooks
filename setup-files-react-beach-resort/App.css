@@ -249,14 +249,9 @@ h6 {
   color: var(--primaryColor);
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
-  transition: 0.2s linear;
-}
-.service span:hover {
-  transform: scale(1.2);
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
-  text-transform: uppercase;
 }
 .services p {
   width: 80%;
@@ -349,7 +344,9 @@ h6 {
 .img-container:hover img {
   opacity: 0.3;
 }
-
+.img-container:hover .price-top {
+  opacity: 0;
+}
 .img-container:hover .room-link {
   transform: translate(-50%, -50%) scale(1);
 }
